@@ -37,6 +37,26 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Custom apps
+    'accounts',
+    'ai_assistant',
+    'analytics',
+    'app_settings',
+    'bills',
+    'budgets',
+    'categories',
+    'chat',
+    'currency',
+    'data',
+    'goals',
+    'integrations',
+    'ml_engine',
+    'notifications',
+    'recurring_transactions',
+    'security',
+    'transactions',
+    'users'
 ]
 
 MIDDLEWARE = [
