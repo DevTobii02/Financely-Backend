@@ -56,7 +56,9 @@ INSTALLED_APPS = [
     'recurring_transactions',
     'security',
     'transactions',
-    'users'
+    'users' 
+
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -135,3 +137,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+AUTH_USER_MODEL = 'users.CustomUser'
